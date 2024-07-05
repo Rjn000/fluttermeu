@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:teste/insert.dart';
+import 'package:teste/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
             iconTheme: IconThemeData(color: Colors.red),
             titleTextStyle: TextStyle(color: Colors.yellowAccent),
           )),
-      home: const Paginahj(),
+      home: const SegPagina(),
     );
   }
 }
